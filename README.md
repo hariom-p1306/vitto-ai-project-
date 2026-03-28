@@ -19,7 +19,6 @@ The system demonstrates:
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
 - Tailwind CSS
 
 ### Backend
@@ -104,7 +103,7 @@ JWT_SECRET=your_secret_key
 
 ### 1️⃣ Clone the repo
 
-git clone https://github.com/your-username/vitto-ai-project.git
+git clone https://github.com/hariom_patel1306/vitto-ai-project.git
 
 cd vitto-ai-project
 
@@ -129,10 +128,11 @@ npm run dev
 
 ### Backend
 Deployed on Render:
-👉 https://your-backend-url.onrender.com
+👉https://vitto-ai-project.onrender.com
 
 ### Frontend (optional)
 Deployed on Vercel
+https://vitto-ai-project.vercel.app/
 
 ---
 
