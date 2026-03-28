@@ -24,7 +24,7 @@ const Signup = () => {
       setLoading(true);
       setError("");
 
-      await axios.post("http://localhost:5000/api/auth/send-otp", {
+      await axios.post("https://vitto-ai-project.onrender.com/api/auth/send-otp", {
         contact,
       });
 
@@ -43,7 +43,7 @@ const Signup = () => {
       setError("");
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/verify-otp",
+        "https://vitto-ai-project.onrender.com/api/auth/verify-otp",
         { contact, otp }
       );
 
@@ -62,7 +62,7 @@ const Signup = () => {
       setLoading(true);
       setError("");
 
-      await axios.post("http://localhost:5000/api/leads", form, {
+      await axios.post("https://vitto-ai-project.onrender.com/api/leads", form, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
